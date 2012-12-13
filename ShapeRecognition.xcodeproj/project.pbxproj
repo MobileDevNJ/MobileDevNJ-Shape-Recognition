@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5BDA81916799E7700BBAEF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BDA81816799E7700BBAEF5 /* UIKit.framework */; };
+		B5BDA81B16799E7700BBAEF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BDA81A16799E7700BBAEF5 /* Foundation.framework */; };
+		B5BDA81D16799E7700BBAEF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BDA81C16799E7700BBAEF5 /* CoreGraphics.framework */; };
+		B5BDA82316799E7700BBAEF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA82116799E7700BBAEF5 /* InfoPlist.strings */; };
+		B5BDA82516799E7700BBAEF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA82416799E7700BBAEF5 /* main.m */; };
+		B5BDA82B16799E7700BBAEF5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA82A16799E7700BBAEF5 /* Default.png */; };
+		B5BDA82D16799E7700BBAEF5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA82C16799E7700BBAEF5 /* Default@2x.png */; };
+		B5BDA82F16799E7700BBAEF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA82E16799E7700BBAEF5 /* Default-568h@2x.png */; };
+		B5BDA85A16799EC200BBAEF5 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA83F16799EC200BBAEF5 /* GestureView.m */; };
+		B5BDA85B16799EC200BBAEF5 /* GLGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA84016799EC200BBAEF5 /* GLGestureRecognizer.m */; };
+		B5BDA85C16799EC200BBAEF5 /* Gestures.json in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA84116799EC200BBAEF5 /* Gestures.json */; };
+		B5BDA85D16799EC200BBAEF5 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA84216799EC200BBAEF5 /* ShapeView.m */; };
+		B5BDA85E16799EC200BBAEF5 /* UIBezierPath+Smoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA84316799EC200BBAEF5 /* UIBezierPath+Smoothing.m */; };
+		B5BDA85F16799EC200BBAEF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA84616799EC200BBAEF5 /* InfoPlist.strings */; };
+		B5BDA86016799EC200BBAEF5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA84816799EC200BBAEF5 /* MainStoryboard_iPad.storyboard */; };
+		B5BDA86116799EC200BBAEF5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BDA84A16799EC200BBAEF5 /* MainStoryboard_iPhone.storyboard */; };
+		B5BDA86216799EC200BBAEF5 /* KWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA84D16799EC200BBAEF5 /* KWViewController.m */; };
+		B5BDA86416799EC200BBAEF5 /* KWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA85016799EC200BBAEF5 /* KWAppDelegate.m */; };
+		B5BDA86516799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDA85316799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5BDA81416799E7700BBAEF5 /* ShapeRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BDA81816799E7700BBAEF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5BDA81A16799E7700BBAEF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5BDA81C16799E7700BBAEF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5BDA82016799E7700BBAEF5 /* ShapeRecognition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeRecognition-Info.plist"; sourceTree = "<group>"; };
+		B5BDA82216799E7700BBAEF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5BDA82416799E7700BBAEF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5BDA82616799E7700BBAEF5 /* ShapeRecognition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShapeRecognition-Prefix.pch"; sourceTree = "<group>"; };
+		B5BDA82A16799E7700BBAEF5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5BDA82C16799E7700BBAEF5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5BDA82E16799E7700BBAEF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5BDA83F16799EC200BBAEF5 /* GestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		B5BDA84016799EC200BBAEF5 /* GLGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLGestureRecognizer.m; sourceTree = "<group>"; };
+		B5BDA84116799EC200BBAEF5 /* Gestures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gestures.json; sourceTree = "<group>"; };
+		B5BDA84216799EC200BBAEF5 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		B5BDA84316799EC200BBAEF5 /* UIBezierPath+Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Smoothing.m"; sourceTree = "<group>"; };
+		B5BDA84416799EC200BBAEF5 /* UIBezierPath+Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Smoothing.h"; sourceTree = "<group>"; };
+		B5BDA84716799EC200BBAEF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		B5BDA84916799EC200BBAEF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B5BDA84B16799EC200BBAEF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B5BDA84C16799EC200BBAEF5 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		B5BDA84D16799EC200BBAEF5 /* KWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWViewController.m; sourceTree = "<group>"; };
+		B5BDA84E16799EC200BBAEF5 /* KWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWViewController.h; sourceTree = "<group>"; };
+		B5BDA85016799EC200BBAEF5 /* KWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWAppDelegate.m; sourceTree = "<group>"; };
+		B5BDA85116799EC200BBAEF5 /* KWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWAppDelegate.h; sourceTree = "<group>"; };
+		B5BDA85216799EC200BBAEF5 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		B5BDA85316799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GLGestureRecognizer+JSONTemplates.m"; sourceTree = "<group>"; };
+		B5BDA85416799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLGestureRecognizer+JSONTemplates.h"; sourceTree = "<group>"; };
+		B5BDA85516799EC200BBAEF5 /* GLGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGestureRecognizer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5BDA81116799E7700BBAEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BDA81916799E7700BBAEF5 /* UIKit.framework in Frameworks */,
+				B5BDA81B16799E7700BBAEF5 /* Foundation.framework in Frameworks */,
+				B5BDA81D16799E7700BBAEF5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5BDA80916799E7700BBAEF5 = {
+			isa = PBXGroup;
+			children = (
+				B5BDA84C16799EC200BBAEF5 /* GestureView.h */,
+				B5BDA83F16799EC200BBAEF5 /* GestureView.m */,
+				B5BDA84116799EC200BBAEF5 /* Gestures.json */,
+				B5BDA84216799EC200BBAEF5 /* ShapeView.m */,
+				B5BDA85216799EC200BBAEF5 /* ShapeView.h */,
+				B5BDA85516799EC200BBAEF5 /* GLGestureRecognizer.h */,
+				B5BDA84016799EC200BBAEF5 /* GLGestureRecognizer.m */,
+				B5BDA84316799EC200BBAEF5 /* UIBezierPath+Smoothing.m */,
+				B5BDA84416799EC200BBAEF5 /* UIBezierPath+Smoothing.h */,
+				B5BDA84516799EC200BBAEF5 /* en.lproj */,
+				B5BDA84D16799EC200BBAEF5 /* KWViewController.m */,
+				B5BDA84E16799EC200BBAEF5 /* KWViewController.h */,
+				B5BDA85016799EC200BBAEF5 /* KWAppDelegate.m */,
+				B5BDA85116799EC200BBAEF5 /* KWAppDelegate.h */,
+				B5BDA85316799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.m */,
+				B5BDA85416799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.h */,
+				B5BDA81E16799E7700BBAEF5 /* ShapeRecognition */,
+				B5BDA81716799E7700BBAEF5 /* Frameworks */,
+				B5BDA81516799E7700BBAEF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5BDA81516799E7700BBAEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5BDA81416799E7700BBAEF5 /* ShapeRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5BDA81716799E7700BBAEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BDA81816799E7700BBAEF5 /* UIKit.framework */,
+				B5BDA81A16799E7700BBAEF5 /* Foundation.framework */,
+				B5BDA81C16799E7700BBAEF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5BDA81E16799E7700BBAEF5 /* ShapeRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				B5BDA81F16799E7700BBAEF5 /* Supporting Files */,
+			);
+			path = ShapeRecognition;
+			sourceTree = "<group>";
+		};
+		B5BDA81F16799E7700BBAEF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5BDA82016799E7700BBAEF5 /* ShapeRecognition-Info.plist */,
+				B5BDA82116799E7700BBAEF5 /* InfoPlist.strings */,
+				B5BDA82416799E7700BBAEF5 /* main.m */,
+				B5BDA82616799E7700BBAEF5 /* ShapeRecognition-Prefix.pch */,
+				B5BDA82A16799E7700BBAEF5 /* Default.png */,
+				B5BDA82C16799E7700BBAEF5 /* Default@2x.png */,
+				B5BDA82E16799E7700BBAEF5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5BDA84516799EC200BBAEF5 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B5BDA84616799EC200BBAEF5 /* InfoPlist.strings */,
+				B5BDA84816799EC200BBAEF5 /* MainStoryboard_iPad.storyboard */,
+				B5BDA84A16799EC200BBAEF5 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5BDA81316799E7700BBAEF5 /* ShapeRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BDA83B16799E7700BBAEF5 /* Build configuration list for PBXNativeTarget "ShapeRecognition" */;
+			buildPhases = (
+				B5BDA81016799E7700BBAEF5 /* Sources */,
+				B5BDA81116799E7700BBAEF5 /* Frameworks */,
+				B5BDA81216799E7700BBAEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeRecognition;
+			productName = ShapeRecognition;
+			productReference = B5BDA81416799E7700BBAEF5 /* ShapeRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5BDA80B16799E7700BBAEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Neo;
+			};
+			buildConfigurationList = B5BDA80E16799E7700BBAEF5 /* Build configuration list for PBXProject "ShapeRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BDA80916799E7700BBAEF5;
+			productRefGroup = B5BDA81516799E7700BBAEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BDA81316799E7700BBAEF5 /* ShapeRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5BDA81216799E7700BBAEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BDA82316799E7700BBAEF5 /* InfoPlist.strings in Resources */,
+				B5BDA82B16799E7700BBAEF5 /* Default.png in Resources */,
+				B5BDA82D16799E7700BBAEF5 /* Default@2x.png in Resources */,
+				B5BDA82F16799E7700BBAEF5 /* Default-568h@2x.png in Resources */,
+				B5BDA85C16799EC200BBAEF5 /* Gestures.json in Resources */,
+				B5BDA85F16799EC200BBAEF5 /* InfoPlist.strings in Resources */,
+				B5BDA86016799EC200BBAEF5 /* MainStoryboard_iPad.storyboard in Resources */,
+				B5BDA86116799EC200BBAEF5 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5BDA81016799E7700BBAEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BDA82516799E7700BBAEF5 /* main.m in Sources */,
+				B5BDA85A16799EC200BBAEF5 /* GestureView.m in Sources */,
+				B5BDA85B16799EC200BBAEF5 /* GLGestureRecognizer.m in Sources */,
+				B5BDA85D16799EC200BBAEF5 /* ShapeView.m in Sources */,
+				B5BDA85E16799EC200BBAEF5 /* UIBezierPath+Smoothing.m in Sources */,
+				B5BDA86216799EC200BBAEF5 /* KWViewController.m in Sources */,
+				B5BDA86416799EC200BBAEF5 /* KWAppDelegate.m in Sources */,
+				B5BDA86516799EC200BBAEF5 /* GLGestureRecognizer+JSONTemplates.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5BDA82116799E7700BBAEF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BDA82216799E7700BBAEF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5BDA84616799EC200BBAEF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BDA84716799EC200BBAEF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5BDA84816799EC200BBAEF5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BDA84916799EC200BBAEF5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B5BDA84A16799EC200BBAEF5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BDA84B16799EC200BBAEF5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5BDA83916799E7700BBAEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5BDA83A16799E7700BBAEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5BDA83C16799E7700BBAEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeRecognition/ShapeRecognition-Prefix.pch";
+				INFOPLIST_FILE = "ShapeRecognition/ShapeRecognition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5BDA83D16799E7700BBAEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeRecognition/ShapeRecognition-Prefix.pch";
+				INFOPLIST_FILE = "ShapeRecognition/ShapeRecognition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BDA80E16799E7700BBAEF5 /* Build configuration list for PBXProject "ShapeRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BDA83916799E7700BBAEF5 /* Debug */,
+				B5BDA83A16799E7700BBAEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BDA83B16799E7700BBAEF5 /* Build configuration list for PBXNativeTarget "ShapeRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BDA83C16799E7700BBAEF5 /* Debug */,
+				B5BDA83D16799E7700BBAEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BDA80B16799E7700BBAEF5 /* Project object */;
+}

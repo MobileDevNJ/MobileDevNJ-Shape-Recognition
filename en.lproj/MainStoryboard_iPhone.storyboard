@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="KS1-Kq-3bI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="KWViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3" customClass="GestureView">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hay-c1-zp2">
+                        <barButtonItem key="rightBarButtonItem" title="Clear" id="hfW-ro-nwH">
+                            <connections>
+                                <action selector="actionClear:" destination="2" id="w37-yL-IhK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="actionClear" destination="hfW-ro-nwH" id="IjZ-bH-8be"/>
+                        <outlet property="btnClear" destination="hfW-ro-nwH" id="hFl-mY-YxK"/>
+                        <outlet property="gestureView" destination="3" id="iuu-cb-O2z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="112"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MLh-U5-FnI">
+            <objects>
+                <navigationController id="KS1-Kq-3bI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q8h-LA-Nid">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="eNE-p3-2yJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BL-wN-dyQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="88"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="GestureView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GestureView.h"/>
+            <relationships>
+                <relationship kind="action" name="clearScreen"/>
+            </relationships>
+        </class>
+        <class className="KWViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KWViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="actionClear:"/>
+                <relationship kind="outlet" name="actionClear" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="btnClear" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="gestureView" candidateClass="GestureView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
